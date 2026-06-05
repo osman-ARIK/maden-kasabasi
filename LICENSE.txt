@@ -1,39 +1,11 @@
-Copyright © 2026 osman-ARIK
-All rights reserved.
+## Copyright Notice
 
-This repository and all of its contents are proprietary.
+Copyright © 2026 osman-ARIK. All rights reserved.
 
-No permission is granted to any person or organization to use, copy, modify, merge,
-publish, distribute, sublicense, sell, reproduce, create derivative works from,
-or otherwise exploit any part of this project, in whole or in part, without prior
-express written permission from the copyright holder.
+This repository is shared for portfolio and evaluation purposes.
 
-This includes, but is not limited to:
+All original code, assets, and design content are protected under copyright law.
 
-- source code
-- scripts
-- gameplay systems
-- artwork
-- sprites
-- textures
-- tilesets
-- animations
-- sound effects
-- music
-- story content
-- dialogue
-- worldbuilding
-- documentation
-- design materials
+No permission is granted for commercial use or redistribution.
 
-This repository is provided for viewing and reference only.
-
-No open-source license is granted.
-No commercial use is allowed.
-No personal reuse is allowed.
-No redistribution is allowed.
-
-Unauthorized use, reproduction, modification, or distribution of any part of this
-project is strictly prohibited.
-
-For permission requests, contact the copyright holder directly.
+For inquiries regarding usage, please contact the author.

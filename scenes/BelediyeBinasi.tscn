@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://cxsw7ekyaetqw"]
+
+[ext_resource type="Script" uid="uid://sbvhxqudpffs" path="res://scripts/belediye_binasi.gd" id="1_2qbsk"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_80jt5"]
+size = Vector2(120, 100)
+
+[node name="BelediyeBinasi" type="Area2D" unique_id=1644463881]
+script = ExtResource("1_2qbsk")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1229236514]
+shape = SubResource("RectangleShape2D_80jt5")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=89327017]
+offset_left = -60.0
+offset_top = -50.0
+offset_right = 60.0
+offset_bottom = 50.0
+color = Color(0.7795092, 0.44379437, 0.75219905, 1)

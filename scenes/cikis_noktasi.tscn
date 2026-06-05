@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://cogem38u5sioy"]
+
+[ext_resource type="Script" uid="uid://00cwxdd3yic3" path="res://scripts/cikis_noktasi.gd" id="1_byo2e"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_l6n3d"]
+size = Vector2(60, 80)
+
+[node name="CikisNoktasi" type="Area2D" unique_id=894791894]
+script = ExtResource("1_byo2e")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1702104309]
+shape = SubResource("RectangleShape2D_l6n3d")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=893087902]
+offset_left = -30.0
+offset_top = -40.0
+offset_right = 30.0
+offset_bottom = 40.0
+color = Color(0.7749492, 0.706802, 1.540184e-06, 1)

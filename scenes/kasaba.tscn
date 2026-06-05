@@ -1,0 +1,57 @@
+[gd_scene format=3 uid="uid://tyex2melg4q5"]
+
+[ext_resource type="PackedScene" uid="uid://cxsw7ekyaetqw" path="res://scenes/BelediyeBinasi.tscn" id="1_2xin8"]
+[ext_resource type="PackedScene" uid="uid://chilmx06u710y" path="res://scenes/player.tscn" id="1_jvq4i"]
+[ext_resource type="PackedScene" uid="uid://yx7125ieeuxy" path="res://scenes/agac.tscn" id="2_t2tuq"]
+[ext_resource type="PackedScene" uid="uid://bd68p8boeuiqd" path="res://scenes/at_arabasi.tscn" id="3_2ojr3"]
+[ext_resource type="PackedScene" uid="uid://huke26lpkb3v" path="res://scenes/parsel_secim_ui.tscn" id="5_7tx2d"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xaa6o"]
+size = Vector2(2000, 20)
+
+[node name="Kasaba" type="Node2D" unique_id=297461573]
+
+[node name="AtArabasi" parent="." unique_id=1043208407 instance=ExtResource("3_2ojr3")]
+position = Vector2(-330, 307)
+
+[node name="BelediyeBinasi" parent="." unique_id=1644463881 instance=ExtResource("1_2xin8")]
+position = Vector2(1, 236)
+
+[node name="Zemin" type="StaticBody2D" parent="." unique_id=417186605]
+position = Vector2(0, 300)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Zemin" unique_id=534709578]
+position = Vector2(2, -4)
+shape = SubResource("RectangleShape2D_xaa6o")
+
+[node name="ColorRect" type="ColorRect" parent="Zemin" unique_id=970504736]
+offset_left = -1000.0
+offset_top = -14.0
+offset_right = 1000.0
+offset_bottom = 186.0
+color = Color(0.54509807, 0.27058825, 0.07450981, 1)
+
+[node name="Player" parent="." unique_id=1597581699 instance=ExtResource("1_jvq4i")]
+
+[node name="Agac" parent="." unique_id=457070745 instance=ExtResource("2_t2tuq")]
+position = Vector2(348, 236)
+
+[node name="Agac2" parent="." unique_id=883026076 instance=ExtResource("2_t2tuq")]
+position = Vector2(502, 236)
+
+[node name="Agac3" parent="." unique_id=660514218 instance=ExtResource("2_t2tuq")]
+position = Vector2(399, 236)
+
+[node name="Agac4" parent="." unique_id=1076702331 instance=ExtResource("2_t2tuq")]
+position = Vector2(265, 236)
+
+[node name="Agac5" parent="." unique_id=1369106625 instance=ExtResource("2_t2tuq")]
+position = Vector2(460, 236)
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=816053986]
+
+[node name="ParselSecimUI" parent="UI" unique_id=1949286322 instance=ExtResource("5_7tx2d")]
+offset_left = -61.0
+offset_top = -51.0
+offset_right = 61.0
+offset_bottom = 51.0

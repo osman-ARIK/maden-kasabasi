@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://yx7125ieeuxy"]
+
+[ext_resource type="Script" uid="uid://v31xp17ugb63" path="res://scripts/agac.gd" id="1_ms536"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ms536"]
+size = Vector2(30, 100)
+
+[node name="Agac" type="Area2D" unique_id=457070745]
+script = ExtResource("1_ms536")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1672334245]
+shape = SubResource("RectangleShape2D_ms536")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1569789002]
+offset_left = -15.0
+offset_top = -50.0
+offset_right = 15.0
+offset_bottom = 50.0
+color = Color(0.18039216, 0.54509807, 0.34117648, 1)
